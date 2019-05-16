@@ -12,10 +12,13 @@ function contentLoaded(event) {
 function keyUp(event) {
   calculateNumericOutput();
 }
+function studentName() {
+  student.name = document.getElementById('name').value;
+}
+
 
 function calculateNumericOutput() {
-  student.name = document.getElementById('name').value;
-
+  //  student.name = document.getElementById('name').value;
   var totalNameValue = 0;
   for (var i = 0; i < student.name.length; i++) {
     totalNameValue += student.name.charCodeAt(i);
