@@ -16,8 +16,13 @@ function keyUp(event) {
 //  student.name = document.getElementById('name').value;
 //}
 
-function calculateNumericOutput() {
+// Goal - make 3 separate functions
+function studentName {
   student.name = document.getElementById('name').value;
+}
+function calculateNumericOutput() {
+  //student.name = document.getElementById('name').value;
+
   var totalNameValue = 0;
   for (var i = 0; i < student.name.length; i++) {
     totalNameValue += student.name.charCodeAt(i);
